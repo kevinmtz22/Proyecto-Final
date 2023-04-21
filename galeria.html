@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Movies</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <!-- NAV -->
+          <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="img/logo1.png" alt="Logo" width="80" height="80" style="border-radius: 50%;" class="d-inline-block align-text-top">
+              </a>
+                    <div class="opcionesmenu">
+                        <a class="links" href="listado.html">Listado</a>
+                        <a class="links" href="index.html">Inicio</a>
+                    </div>
+            </div>
+          </nav>
+
+<!-- lIsta de productos -->
+
+          <ul name="galeria" id="peliculas">
+         
+           
+          </ul>
+
+     
+
+        <!-- Contenedor flotante CARRITOO -->
+          <div class="carrito-contenedor" id="carrito1">
+            <div  id="carrito-contenido">
+              
+            </div>
+            <button  id="compracarrito"  href="detalles del carrito.html" class="btn btn-success">Comprar</button>
+            <button  onclick="ocultar()" class="btn btn-danger">Cerrar</button>
+          </div>
+    
+    <!--Inserta javascript por medio de un archivo-->
+    <script src="js/listado.js"></script>
+    <script src="js/carrito.js"></script>
+    
+    </body>
+</html>

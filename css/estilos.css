@@ -1,0 +1,170 @@
+/* Tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/* General */
+.links{
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Shrikhand', cursive;
+    color: #95BDFF;
+    font-size: 25px;
+}
+.opcionesmenu{
+    float: right;
+}
+.navbar{
+background-color: #9E4784;
+color: rgb(0, 0, 0);
+}
+
+
+
+/* Inicio */
+.seccionparalogo{
+    width: 40%;
+    display: inline-block;
+    margin-top: 150px;
+}
+#logo{
+    width: 80%;
+    margin-left: 50px;
+}
+.descripcion{
+    width: 55%;
+    display: inline-block;
+    text-align: center;
+}
+.titulo{
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+}
+.texto{
+    font-family: 'Shrikhand', cursive;
+    font-size: 25px;
+}
+#card1,#card2{
+    display: inline-block;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    margin: 50px;
+}
+#card1{
+    margin-left: 350px;
+}
+.card-title{
+    font-family: 'Shrikhand', cursive;
+}
+.card-text{
+    font-family: 'Itim', cursive;
+    font-size: 16px;
+}
+#letra, #letra1{
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+}
+
+
+/* Listado */
+#seccionparaboton{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    width: 100%;
+}
+.inputs{
+    display: block;
+    width: 450px;
+    text-align: center;
+    margin-top: 15px;
+}
+th, .lista, #alta{
+    font-family: 'Shrikhand', cursive;
+}
+td, #dar-alta, .lista-uno, #cerrar{
+    font-family: 'Itim', cursive;
+}
+  
+
+/* Galeria */
+.productos{
+    margin: 30px;
+    display: inline-block;
+}
+.peli{
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+}
+.pelis{
+    font-family: 'Itim', cursive;
+}
+
+
+.carrito-contenedor {
+    position: fixed;
+    top: 110px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+  }
+  .carritoflotante_mostrar{
+    display: block;
+  }
+  .carritoflotante_ocultar{
+    display: block;
+  }
+
+/* Detalles del carrito */
+
+#tabla{
+    margin-left: 120px;
+    margin-top: 100px;
+}
+#vaciar{
+    margin-left: 120px;
+    margin-top: 50px;
+    font-family: 'Itim', cursive;
+}
+#comprar{
+    margin-left: 120px;
+    margin-top: 50px;
+    font-family: 'Itim', cursive;
+}
+#comprador{
+    font-family: 'Shrikhand', cursive;
+}
+.inputs{
+    font-family: 'Itim', cursive;
+}
+#cerrar, #factura{
+    font-family: 'Itim', cursive;
+}
+
+/* Detalles del producto */
+#foto{
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+}
+#detalles{
+    width: 50%;
+    display: inline-block;
+}
+#informacion{
+    margin-top: 100px;
+    font-family: 'Shrikhand', cursive;
+}
+.desc{
+    margin-top: 50px;
+    font-family: 'Itim', cursive;
+}
+.carrito{
+    margin-top: 50px;
+}
+#detalle{
+    font-family: 'Shrikhand', cursive;
+    margin-left: 25px;
+}
+
